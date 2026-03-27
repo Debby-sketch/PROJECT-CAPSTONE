@@ -6,21 +6,134 @@
 header{
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
+    padding-left:100px;
+    padding-right: 100px;
 }
 
-header button{
+header button, .hero button, footer button{
     color:white;
     border: none;
-    background-color: black;
+    background-color: #000;
     border-radius: 7px;
     padding: 10px;
 }
 
-header button:hover{
+header button:hover, .hero button:hover, footer button:hover{
     background-color: #E06330;
     cursor: pointer;
     border:none;
 }
-header 
+ul{
+
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+        
+}
+header a:hover{
+    color: #E06330;
+}
+
+
+nav{
+    
+    width: 300px;
+}
+ul{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.hero, .about{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding: 100px;
+    
+
+}
+
+.hero h1{
+ font-family:monospace ;
+ font-weight: 400;
+ color: black;
+ size:58px;
+ line-height: 72px;
+}
+.intro{
+    width: 40%;
+}
+.hero span{
+    color: #E06330;
+}
+
+.about section{
+    width: 40%;
+    padding: 70px;
+    color: #E06330;
+}
+.about .more-information{
+    font-family:sans-serif;
+    font-weight: 400;
+    color: #000;
+    size: 18px;
+    line-height: 27px;
+    width: 60%;
+
+}  
+.project-section{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+.project h1{
+    text-align: center;
+
+}
+.div{
+    justify-content: space-around;
+    align-items: center;
+}
+.project{
+    margin-bottom: 200px;
+
+}
+footer{
+    display: grid;
+    place-content: center;
+}
+.button-container{
+width: 500px;
+border-bottom:1px solid black;
+display:grid;
+place-content:center;
+padding-bottom:20px;
+
+}
+.icon-container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 200px;
+    
+
+}
+
+
+
+
+
